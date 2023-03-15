@@ -1,0 +1,22 @@
+Os três pilares da Programação Orientada a Objetos
+ - Polimorfismo: com o Polimorfismo temos a capacidade de fazer a mesma tarefa de diferentes formas
+ - Herança: permite compartilhar informações entre os objetos
+ - Ecncapsulamento: podemos controlar os níveis de acesso à determinada informação.
+
+Para criar um atributo dentro de uma função construtora, utilizamos a Palavra Reservada this.
+
+Para rodarmos um console.log(), digitamos no terminal node .\arquivo.js
+
+Arrays e Objetos Customizados são considerados Object pelo Typeof.
+
+Para verificarmos se uma Variável é uma instância de um Construtor utilizamos o Instanceof, segue abaixo:
+console.log(carro2 instanceof Carro);
+
+O if verifica se existe um atributo, se ele não é nulo e indefinido.
+
+Para verificar se o atributo existe mesmo que null ou undefined, utilizamos o in:
+if ('sobrenome' in pessoa) {
+    console.log('sim')
+}
+
+Object.freeze(pessoa), para congelar os atributos de um objeto, tornando-os imutáveis.
